@@ -744,6 +744,7 @@ footer {
     max-width: 1000px;
     margin: auto;
     padding: 0 1rem;
+    display: grid;
     grid-template-columns: 1fr .5fr;
     grid-template-rows: repeat(2, auto);
   }
