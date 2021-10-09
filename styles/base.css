@@ -888,6 +888,9 @@ footer {
   }
   .social article {
     max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .socialIcons {
     border-left: none;
