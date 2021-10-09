@@ -699,6 +699,10 @@ footer {
   /* ######### 10a-iv. CTA summaries, Large screen rules ######### */
   .cta {
     min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
   .cta1 {
     background-image: url("../images/ctaBG1_lg.jpg");
