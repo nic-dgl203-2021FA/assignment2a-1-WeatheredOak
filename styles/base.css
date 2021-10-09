@@ -400,6 +400,9 @@ nav .btn:hover {
 .teamMembers {
   list-style-type: none;
   margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  align-items: center;
 }
 
 .teamMembers li {}
@@ -702,7 +705,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
   .cta1 {
     background-image: url("../images/ctaBG1_lg.jpg");
