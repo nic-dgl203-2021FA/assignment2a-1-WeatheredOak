@@ -683,7 +683,7 @@ footer {
   }
   /* ######### 10a-iiI. Trips, Large screen rules ######### */
   .tripList {
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   .trips article {
     width: 90%;
